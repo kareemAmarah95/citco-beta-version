@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* General Styling Start */
 :root {
   --black-color: #1a1a1a;
-  --font-family: "Roboto", sans-serif;
+  --font-family: "Raleway", sans-serif;
   --white-color: #fff;
   --ligt-gray-color: #c6c6c6;
 }
@@ -81,7 +81,7 @@ a.nav-link.navbar-anchor.active {
   display: block;
   text-align: left;
   transition: 0.3s ease-in-out;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
@@ -117,7 +117,7 @@ a.navbar-brand {
 }
 
 .contacts-section-right-half h2 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -125,7 +125,7 @@ a.navbar-brand {
 }
 
 .contacts-section-right-half p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   font-size: 15px;
   font-weight: 300;
   line-height: 24px;
@@ -152,7 +152,7 @@ a.navbar-brand {
   font-weight: 600 !important;
   text-transform: uppercase;
   font-size: 119.895px !important;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   line-height: 0.85;
 }
 
@@ -168,7 +168,7 @@ a.navbar-brand {
 }
 
 .form-control::placeholder {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   color: var(--black-color) !important;
   padding-left: 0% !important;
 }
@@ -211,7 +211,7 @@ a.navbar-brand {
   border-bottom: 1px solid var(--black-color) !important;
   border-radius: 0 !important;
   width: 50%;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   text-transform: uppercase;
   font-size: 29.985 !important;
   letter-spacing: normal;

@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* General Styling Start */
 :root {
   --black-color: #1a1a1a;
-  --font-family: "Roboto", sans-serif;
+  --font-family: "Raleway", sans-serif;
   --white-color: #fff;
 }
 
@@ -120,7 +120,7 @@ a.navbar-brand {
 
 .carousel-item-title h2 {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   font-weight: 600;
 }
 
