@@ -45,6 +45,10 @@ li {
   cursor: pointer;
 }
 
+.navbar-link-logo img {
+  width: 100% !important;
+}
+
 .home-logo {
   color: var(--black-color) !important;
 }
@@ -66,9 +70,9 @@ a.nav-link.navbar-anchor.active {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -82,11 +86,10 @@ a.nav-link.navbar-anchor.active {
   display: block;
   text-align: left;
   transition: 0.3s ease-in-out;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
-
 
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -102,12 +105,14 @@ a.nav-link.navbar-anchor.active {
 /* Hero section START */
 
 .hero-section {
-  background-image: url("../images/wall-features/2.jpg");
-  background-size: cover;
+  background-image: url("../images/sculptures/9.jpg");
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .hero-caption {
@@ -213,12 +218,6 @@ a.nav-link.navbar-anchor.active {
     display: block;
     cursor: pointer;
   }
-  /* .hamburger ul li {
-    width: 30px;
-    height: 3px;
-    background-color: #fefefe;
-    margin: 6px 0px;
-  } */
 }
 /* tablet screen start */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -234,15 +233,10 @@ a.nav-link.navbar-anchor.active {
     margin-right: 0px;
   }
 
-  .navbar-link-logo img {
-    width: 100% !important;
-  }
-
-  .dropdown-content{
+  .dropdown-content {
     left: 50%;
     transform: translateX(-50%);
     min-width: 50%;
-    
   }
 
   .dropdown-content a {
@@ -334,7 +328,7 @@ a.nav-link.navbar-anchor.active {
     width: 100% !important;
   }
 
-  .dropdown-content{
+  .dropdown-content {
     left: 50%;
     transform: translateX(-50%);
     min-width: 50%;
