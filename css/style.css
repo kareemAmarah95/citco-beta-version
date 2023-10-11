@@ -9,6 +9,7 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .width-30 {
   width: 30% !important;
@@ -127,79 +128,29 @@ a.nav-link.navbar-anchor.active {
 
 /* Hero section END */
 
-/* geometrical section start */
-
-.geometrical,
-.natural {
-  position: relative;
+/* contatc us section start */
+.contact-us {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
-.geometrical-left-side,
-.natural-left-side {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 37%;
+.icon-holder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: gray;
 }
 
-.geometrical-left-side h2,
-.natural-left-side h2 {
-  text-align: right;
-  font-family: "Raleway", sans-serif !important;
-  font-weight: 600;
-  font-size: 60px;
-  color: var(--black-color);
-  text-transform: uppercase;
-  margin-bottom: 24px;
-}
-
-.geometrical-left-side p,
-.natural-left-side p {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
-  color: var(--black-color) !important;
-}
-
-/* geometrical section end */
-
-/* jewels section start */
-
-.jewels,
-.oriental {
-  position: relative;
-}
-
-.jewels-right-side,
-.oriental-right-side {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 44%;
-}
-
-.jewels-right-side h2,
-.oriental-right-side h2 {
-  text-align: right;
-  font-family: "Raleway", sans-serif !important;
-  font-weight: 600;
-  font-size: 60px;
-  color: var(--black-color);
-  text-transform: uppercase;
-  margin-bottom: 24px;
-}
-
-.jewels-right-side p,
-.oriental-right-side p {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
-  margin-left: 5rem;
-  color: var(--black-color) !important;
-}
-
-/* jewels section end */
-
+/* contatc us section end */
 /* media query start */
 
 @media only screen and (max-width: 1320px) {
@@ -365,7 +316,7 @@ a.nav-link.navbar-anchor.active {
   .hero-section {
     height: 50vh;
     background-position-x: 60%;
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
   .hero-caption {

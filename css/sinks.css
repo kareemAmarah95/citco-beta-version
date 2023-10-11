@@ -108,14 +108,15 @@ a.navbar-brand {
 
 .carousel-item-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
-  margin-left: 5.5rem;
+  /* margin-left: 5.5rem; */
 }
 
 .carousel-item-title {
   margin-left: 20px;
+  /* text-align: center; */
 }
 
 .carousel-item-title h2 {
@@ -128,12 +129,12 @@ a.navbar-brand {
   font-weight: 300;
   font-size: 15px;
   font-family: "Poppins", sans-serif !important;
+  text-align: center;
 }
 
 .carousel-item img {
-  margin: 0 auto;
-  width: 23%;
-  height: 65%;
+  height: 60vh;
+  width: 35vw;
   margin: 0 auto;
 }
 
@@ -163,6 +164,11 @@ a.navbar-brand {
 .carousel-control-prev-icon svg,
 .carousel-control-next-icon svg {
   color: black !important;
+}
+
+.carousel-indicators {
+  margin-bottom: 0rem !important;
+  bottom: -5%;
 }
 
 .carousel-indicators button {
@@ -262,12 +268,12 @@ a.navbar-brand {
   }
 
   .carousel-item img {
-    height: 25%;
-    width: 25%;
+    height: 60vh;
+    width: 50vw;
   }
 
   .carousel-item-text {
-    margin-left: 1.6rem;
+    text-align: center;
   }
 
   .carousel-control-prev,
@@ -322,16 +328,16 @@ a.navbar-brand {
   }
 
   .carousel-item-text {
-    margin-left: 1.6rem;
+    text-align: center;
   }
 
   .carousel-item img {
-    height: 35vh;
-    width: 50vw;
+    height: 60vh;
+    width: 75vw;
   }
 
   .carousel-control-prev,
   .carousel-control-next {
-    height: 82vh;
+    height: 100vh;
   }
 }
